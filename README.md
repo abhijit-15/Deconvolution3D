@@ -17,7 +17,7 @@ PSF is estimated with deconvblind function with 20 iterations. More iterations m
 
 4.First run getPSF.m which will use MATLAB’s blind deconvolution algorithm to generate the PSF. It also scales the stack laterally to make computation faster.
 
-5.It also stores different stacks in .mat format so that they can be used directly by the codes.
+5.It also stores different stacks in .mat format so that they can be used directly by the different methods.
 
 ### RL
 1. Ensure that you have run getPSF.m
@@ -26,6 +26,8 @@ PSF is estimated with deconvblind function with 20 iterations. More iterations m
 ## ADMM
 1. Ensure that you have run getPSF.m
 2. Then run runADMM.m
+
+##
 
 6. For detailed understanding of the above two methods you may want to refer this paper.
 (https://www.osapublishing.org/abstract.cfm?uri=AIO-2016-JT3A.44)
