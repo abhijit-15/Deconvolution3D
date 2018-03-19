@@ -19,12 +19,12 @@ PSF is estimated with deconvblind function with 20 iterations. More iterations m
 5.It also stores different stacks in .mat format so that they can be used directly by the codes.
 
 6.*For RL:*
-a.Ensure that you have run getPSF.m
-b.Then run runRL.m
+..a.Ensure that you have run getPSF.m
+..b.Then run runRL.m
 
 7.*For ADMM:*
-a.Ensure that you have run getPSF.m
-b.Then run runADMM.m
+..a.Ensure that you have run getPSF.m
+..b.Then run runADMM.m
 
 8.For detailed understanding of the above two methods you may want to refer this paper.
 (https://www.osapublishing.org/abstract.cfm?uri=AIO-2016-JT3A.44)
@@ -32,17 +32,17 @@ b.Then run runADMM.m
 9.The matrices are stored in MATLAB v6 binary format for ease of import into python without loss of performance.
 
 10.*For SRCNN:*
-a.Please ensure that the tensorflow-gpu is installed. Otherwise training will take lot more time.
-b.Go to srcnn folder. Run main.py.
-c.helper.py contains some auxiliary functions. model.py is the main code for the SRCNN model.
-d.For measuring the effectiveness, we train on 22 slices with WF as input and SIM as output.
-e.Testing is done on the remaining 22 slices.
-f.Please refer to the paper for further details.(http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html)
-g.Padding is done so as to maintain only one image size.
+..a.Please ensure that the tensorflow-gpu is installed. Otherwise training will take lot more time.
+..b.Go to srcnn folder. Run main.py.
+..c.helper.py contains some auxiliary functions. model.py is the main code for the SRCNN model.
+..d.For measuring the effectiveness, we train on 22 slices with WF as input and SIM as output.
+..e.Testing is done on the remaining 22 slices.
+..f.Please refer to the paper for further details.(http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html)
+..g.Padding is done so as to maintain only one image size.
 
 11.*For Isonet-1:*
-a.Please ensure that the tensorflow-gpu is installed. Otherwise training will take lot more time.
-b.Go to isonet folder. Run main.py.
-c.Fiji/ImageJ is also needed to perform some basic image corrections and thresholding operations.  
-d.Please refer to the paper for further details. (https://arxiv.org/pdf/1704.01510.pdf)
-e.Isonet-1 and 2 are under improvement and testing
+..a.Please ensure that the tensorflow-gpu is installed. Otherwise training will take lot more time.
+..b.Go to isonet folder. Run main.py.
+..c.Fiji/ImageJ is also needed to perform some basic image corrections and thresholding operations.  
+..d.Please refer to the paper for further details. (https://arxiv.org/pdf/1704.01510.pdf)
+..e.Isonet-1 and 2 are under improvement and testing
