@@ -37,14 +37,12 @@ b.Go to srcnn folder. Run main.py.
 c.helper.py contains some auxiliary functions. model.py is the main code for the SRCNN model.
 d.For measuring the effectiveness, we train on 22 slices with WF as input and SIM as output.
 e.Testing is done on the remaining 22 slices.
-f.Please refer to the paper for further details.
-(http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html)
+f.Please refer to the paper for further details.(http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html)
 g.Padding is done so as to maintain only one image size.
 
 11.*For Isonet-1:*
 a.Please ensure that the tensorflow-gpu is installed. Otherwise training will take lot more time.
 b.Go to isonet folder. Run main.py.
 c.Fiji/ImageJ is also needed to perform some basic image corrections and thresholding operations.  
-d.Please refer to the paper for further details. 
-(https://arxiv.org/pdf/1704.01510.pdf)
-e.Isonet-1 and 2 are still work in progress
+d.Please refer to the paper for further details. (https://arxiv.org/pdf/1704.01510.pdf)
+e.Isonet-1 and 2 are under improvement and testing
